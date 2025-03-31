@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 36) ;
+    color:white ;
+    font-family:'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(30, 30, 64);
+}
+nav ul{
+    display: flex;
+    justify-content:center ;
+}
+nav ul li{
+    list-style: none;
+margin: 0 23px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(220, 220, 21);
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.left{
+   font-size: 3 rem; 
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+    margin: 130px 0 ;
+}
+.firstsection > div
+{
+    width: 30%;
+    
+}
+.leftsection{
+    
+    font-size: 2.5rem;
+   
+}
+.rightsection img{
+
+ width: 80%;
+
+}
+.purple{
+    color: rgb(182, 53, 182);
+}
+#element{
+    color: rgb(182, 53, 182);
+}
+.secondsection{
+    max-width:80vw;
+    margin: auto;
+ height:80vh ;
+    font-size: 1.5rem;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+margin: 60px 84px ;
+    height: 1.2px;
+
+}
+.Experience ul li{
+    margin: 30px;
+    color: #9c97f1;
+    
+}footer{
+    background-color: #0e0e1a;
+    height: 200px;
+}
+.footer{
+display: flex;
+margin: 23px 122px ;
+}
+footerfir{
+    justify-content: space-evenly;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color:white;
+    border-radius: 6px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftsection .buttons{
+    padding: 50px;
+}
+.buttons a{
+    color: white;
+}
